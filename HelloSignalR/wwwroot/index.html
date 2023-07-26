@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <br />
+
+    <label>Team:</label>
+    <br />
+    <input id="team" style="width:300px" />
+    <br />
+    <label>Receiving team:</label>
+    <br />
+    <input id="receiver" style="width:300px" />
+    <br />
+    <label>Message:</label>
+    <br />
+    <input id="outbound" style="width:300px" />
+    <br />
+    <label>Inbox:</label>
+    <br />
+    <textarea id="incoming" readonly style="width:300px; resize:none" rows="3"></textarea>
+    <br />
+    <label>Score:</label>
+    <br />
+    <button id="scoreUp">SCORE UP</button>
+    <input readonly id="myScore" />
+    <br />
+    <br />
+    <button id="abort">ABORT</button>
+    <br />
+    <br />
+    <label>Connection log:</label>
+    <br />
+    <textarea id="log" readonly style="width:330px; resize:none" rows="15"></textarea>
+
+    <script src="node_modules/@microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
